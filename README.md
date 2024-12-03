@@ -1,4 +1,4 @@
-Pronouns: he/him
+Pronouns: yi/ha
 
 # React + TypeScript + Vite
 
