@@ -3,12 +3,11 @@ import { motion } from 'motion/react';
 
 // Text Data
 
-const text =
-  'Which flavour profile do you usually prefer or want to explore next?';
+const text = 'Which flavour and taste profiles do you prefer?';
 
 const charVariants = {
-  hidden: { opacity: 0, color: '#1e293b' },
-  reveal: { opacity: 1, color: '#e2e8f0' },
+  hidden: { opacity: 0, color: '#ccfbf1' },
+  reveal: { opacity: 1, color: '#1E293B' },
 };
 
 // Function of Component
@@ -17,7 +16,7 @@ const QuestionTextReveal = () => {
   return (
     <>
       <motion.p
-        className="text-3xl font-extrabold "
+        className="text-5xl font-extrabold tracking-tight leading-[0.85] "
         initial="hidden"
         whileInView="reveal"
         transition={{ staggerChildren: 0.08 }}

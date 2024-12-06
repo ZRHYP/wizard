@@ -1,4 +1,4 @@
-import gggm_animated from '../assets/gggm_animated.svg';
+// import gggm_animated from '../assets/gggm_animated.svg';
 const QuestionStyle1 = () => {
   const shoot = () => {
     alert('Great Shot!');
