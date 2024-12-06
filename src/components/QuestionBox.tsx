@@ -2,7 +2,7 @@ import QuestionTextReveal from './QuestionTextReveal';
 
 const QuestionBox = () => {
   return (
-    <div className="p-5 mb-2 rounded-lg bg-slate-800">
+    <div className="pr-[20%] text-balance">
       <QuestionTextReveal />
     </div>
   );
